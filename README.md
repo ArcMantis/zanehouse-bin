@@ -26,19 +26,6 @@
 ## 系统要求
 * **OS**: Debian 13 (推荐) / Windows 10+
 * **依赖**: FFmpeg (用于 Zconvert 视频处理),yt-dlp (用于zdownload的视频下载)
-
-## 手动编译
-1.  确保已安装 [Rust 编译环境](https://www.rust-lang.org/)。
-2.  克隆仓库并进入目录：
-    ```bash
-    git clone [https://github.com/ArcMantis/zanehouse.git](https://github.com/ArcMantis/zanehouse.git)
-    cd zane-house
-    ```
-3.  运行应用：
-    ```bash
-    cargo run --release
-    ```
-
 ---
 
 # License
