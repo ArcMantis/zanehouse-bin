@@ -12,6 +12,11 @@
       <br />
       <sub><b>转换模块</b></sub>
     </td>
+    <td align="center">
+      <img src="./images/android.png" alt="安卓工具" width="400px">
+      <br />
+      <sub><b>转换模块</b></sub>
+    </td>
   </tr>
 </table>
 
@@ -21,11 +26,13 @@
 ## 核心功能
 * **🚀 Zdownload**: 基于yt-dlp的GUI下载器,支持图形化导入cookies。
 * **🎬 Zconvert**: 简单的视频转码工具，提供直观的界面来处理各种视频格式转换需求。
+* **✂Zcut**: 基于ffmpeg的GUI图形化粗剪工具，可无损剪辑视频。
+* **📱Zadb**: 基于scrcpy的GUI图形化投屏工具。
 * **🎨 现代 UI**: 基于 Slint 1.15 构建，Material风格,完美适配 GNOME 环境。
 
 ## 系统要求
-* **OS**: Debian 13 (推荐) / Windows 10+
-* **依赖**: FFmpeg (用于 Zconvert 视频处理),yt-dlp (用于zdownload的视频下载)
+* **OS**: Debian 13 (推荐) / Windows 11(未在10测试过)
+* **依赖**: FFmpeg (用于 Zconvert 视频处理),yt-dlp (用于zdownload的视频下载)，adb/scrcpy (用于投屏)
 ---
 
 # License
